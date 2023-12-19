@@ -87,7 +87,7 @@ class Project
     }
     static void Connection(string name, List<string> collumnNames, List<string> tableValues)
     {
-        string connectionString = "Host=localhost;Username=postgres;Password=Mzkwcim181099!;Database=RudolphTable";
+        string connectionString = "Host=localhost;Username=postgres;Password=postgres;Database=RudolphTable";
 
         using (NpgsqlConnection connection = new NpgsqlConnection(connectionString))
         {
